@@ -1,6 +1,6 @@
 {
     "name": "conquer/excanvas",
-    "description": "Conquer excanvas assets",
+    "description": "Yii2 excanvas assets",
     "keywords": ["yii2", "extension", "widget", "excanvas"],
     "homepage": "https://github.com/borodulin/yii2-excanvas",
     "type": "yii2-extension",
