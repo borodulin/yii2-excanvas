@@ -5,16 +5,19 @@
     "homepage": "https://github.com/borodulin/yii2-excanvas",
     "type": "yii2-extension",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/borodulin/yii2-excanvas/issues",
+        "source": "https://github.com/borodulin/yii2-excanvas"
+    },
     "authors": [
         {
             "name": "Andrey Borodulin",
-            "email": "borodulin@gmail.com",
-            "homepage": "https://github.com/borodulin/yii2-excanvas"
+            "email": "borodulin@gmail.com"
         }
     ],
     "extra": {
         "branch-alias": {
-          "dev-master": "1.0.0.x-dev"
+          "dev-master": "1.0.1.x-dev"
         }
       },
     "require": {
