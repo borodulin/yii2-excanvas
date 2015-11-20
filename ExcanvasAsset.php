@@ -9,18 +9,18 @@ namespace conquer\excanvas;
 
 class ExcanvasAsset extends \yii\web\AssetBundle
 {
-	public $js=[
-			'excanvas.min.js',
-	];
-	
-	public $jsOptions = [
-			'condition'=>'lte IE 8',
-	];
-	
-	public function init()
-	{
-		$this->sourcePath=dirname(__FILE__).DIRECTORY_SEPARATOR.'assets';
-		parent::init();
-	}
-	
+    public $js = [
+            'excanvas.min.js',
+    ];
+    
+    public $jsOptions = [
+            'condition'=>'lte IE 8',
+    ];
+    
+    public function init()
+    {
+        $this->sourcePath = dirname(__FILE__) . '/assets';
+        parent::init();
+    }
+    
 }
